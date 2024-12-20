@@ -1,4 +1,4 @@
-function Fields() {
+function Services() {
     return (
         <div className="h-full w-full flex flex-col gap-y-10 items-center">
             <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-center">
@@ -57,4 +57,4 @@ function Fields() {
     );
 }
 
-export default Fields;
+export default Services;

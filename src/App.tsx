@@ -2,7 +2,7 @@ import './App.css'
 import Application from './components/Application'
 import FAQ from './components/FAQ'
 import Feature from './components/Feature'
-import Fields from './components/Fields'
+import Services from './components/Services'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -21,7 +21,7 @@ function App() {
         <Hero />
         <Onboard />
         <Feature />
-        <Fields />
+        <Services />
         <Pricing />
         <Application />
         <FAQ />
