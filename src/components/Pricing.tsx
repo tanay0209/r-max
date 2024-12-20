@@ -11,12 +11,12 @@ function Pricing() {
                 Simple and transparent pricing. Start for free, upgrade when you love it <br />{" "}
                 <span className="text-orange-600">30 day free trial in a button</span>
             </p>
-            <p className="text-center leading-relaxed">Running a{" "}<span className="font-semibold">Growth Business</span> or {" "}<span className="font-semibold">Enterprise</span>? Let&apos;s connect -{" "}<span className="bg-[#F54F35] text-white px-2 py-1 rounded-md text-sm">Talk to sales</span></p>
+            <p className="text-center leading-relaxed">Running a{" "}<span className="font-semibold">Growth Business</span> or {" "}<span className="font-semibold">Enterprise</span>? Let&apos;s connect -{" "}<button className="bg-[#F54F35] text-white px-2 py-1 rounded-md text-sm">Talk to sales</button></p>
             <div className="flex items-center space-x-2">
                 <label htmlFor="monthly">Monthly</label>
                 <Switch />
                 <label htmlFor="yearly">Yearly</label>
-                <div className="text-[#F54F35] text-sm font-semibold bg-[#FEF1EF] rounded-xl px-2">Save 25%</div>
+                <div className="text-[#F54F35] text-sm text-center font-semibold bg-[#FEF1EF] rounded-xl px-2">Save 25%</div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4">
                 <div className="flex flex-col py-5 px-6 justify-between space-y-4 border border-gray-200 rounded-md">
